@@ -7,7 +7,6 @@
 // @match           http://steamcommunity.com/app/*/discussions/*
 // @match           http://steamcommunity.com/discussions/forum/*/*
 // @require         http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js
-// @updateURL       https://github.com/heffebaycay/community-moderation/raw/master/community-moderation.user.js
 // @version         1.0
 // ==/UserScript==
 
