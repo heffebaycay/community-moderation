@@ -7,6 +7,7 @@
 // @match           http://steamcommunity.com/app/*/discussions/*
 // @match           http://steamcommunity.com/discussions/forum/*/*
 // @require         http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js
+// @updateURL       https://github.com/heffebaycay/community-moderation/raw/master/community-moderation.user.js
 // @version         1.0
 // ==/UserScript==
 
@@ -16,7 +17,7 @@
 var importantForums = [
     {
         type: "steam",
-        board: 25
+        board: 25 // Board 25 = French Steam forum
     },
     {
         type: "hub",
@@ -29,11 +30,11 @@ var importantForums = [
 var excludedForums = [
     {
         type: "steam",
-        board: 24
+        board: 24 // German Board
     },
     {
         type: "steam",
-        board: 26
+        board: 26 // Russian Board
     }
 ];
 
